@@ -1,0 +1,64 @@
+<% if(cookies["username"]!=null){ %>
+    <p>Bine ai venit, <%= cookies["username"] %>!</p>
+    <% } %>
+        <h3 style="color:rgb(35, 35, 35)">Categorii de permise de conducere</h3>
+        <hr>
+        <div class="body-container">
+            <div class="body-container1">
+                <img src="imagini/Categorie1.png" alt="Categorie1" />
+                <h3>Cuprinde categoriile A,A1,A2,AM</h3>
+                <a href="/categorieA"><button>Află mai multe</button></a>
+                </br>
+                </br>
+            </div>
+            <div class="body-container2">
+                <img src="imagini/Categorie2.png" alt="Categorie2" />
+                <h3>Cuprinde categoriile B,B1</h3>
+                <a href="/categorieB"><button>Află mai multe</button></a>
+                </br>
+            </div>
+            <div class="body-container3">
+                <img src="imagini/Categorie3.png" alt="Categorie3" />
+                <h3>Cuprinde categoriile C,C1</h3>
+                <a href="/categorieC"><button>Află mai multe</button></a>
+                </br>
+            </div>
+
+        </div>
+        <button class="butonIndex"><a href="/autentificare">Pagina autentificare</a></button>
+        <br>
+        <br>
+        <button class="butonIndex"><a href="/creare-bd">Creare BD</a></button>
+        <br>
+        <br>
+        <button class="butonIndex"><a href="/incarcare-bd">Incarcare BD</a></button>
+        <br>
+        <br>
+        <!-- <% if (result!=undefined) { %>
+            <table>
+                <tr>
+                    <td>Produs</td>
+                    <td>Pret</td>
+                </tr>
+                <% for(var i=0;i<result.length ;i++){ %>
+                    <tr>
+                        <td>
+                            <%= result[i]['nume'] %>
+                        </td>
+                        <td>
+                            <%= result[i]['pret'] %>
+                        </td>
+                        <td>
+                            <form action="/adauga-cos" method="post">
+                                <button type="submit">Adauga cos</button>
+                                <input type="hidden" name="id" value=<%=result[i]['id'] %>>
+                                <input type="hidden" name="nume" value=<%=result[i]['nume'] %>>
+                                <%console.log(result[i]['nume']);%>
+                                    <input type="hidden" name="pret" value=<%=result[i]['pret'] %>>
+
+                            </form>
+                        </td>
+                    </tr>
+                    <% } %>
+            </table>
+            <% } %> -->

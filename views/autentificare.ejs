@@ -1,0 +1,11 @@
+<form action="/verificare-autentificare" method="post">
+    <label for="username">Utilizator:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <label for="password">Parola:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <br/><br/>
+    <input type="submit" value="Submit">
+    </form>
+    <% if (cookies["mesajEroare"] != null) {%>
+        <p id = mesajEroare> <%= cookies["mesajEroare"] %> </p>
+        <% } %>

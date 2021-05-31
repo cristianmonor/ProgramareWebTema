@@ -1,0 +1,22 @@
+[
+    {
+        "intrebare": "Este o practică bună să înfășurați firele de plumb cu bandă din teflon și să acoperiți banda cu etanșare a filetului de țeavă?",
+        "variante": ["Adevarat", "Fals"],
+        "corect": 0
+    },
+    {
+        "intrebare": "Care dintre următoarele ar fi utilizate pentru fixarea tuburilor PEX la armături?",
+        "variante": ["clemă Cinch", "Inel de sertizare „Pro”", "Inel de sertizare din cupru", "Toate cele mentionate"],
+        "corect": 3
+    },
+    {
+        "intrebare": "Conservantul hidrofug (WRP) este un înveliș aplicat pe lemn, în zone umede, înainte de vopsire și vopsire.",
+        "variante": ["Adevarat", "Fals"],
+        "corect": 0
+    },
+    {
+        "intrebare": "De unde știi dacă un produs finit (vopsea, lac, etc.) este pe bază de ulei sau apă?",
+        "variante": ["A. Puteți spune după miros", "Citiți instrucțiunile de curățare", "Este indicat clar pe etichetă"],
+        "corect": 1
+    }
+]

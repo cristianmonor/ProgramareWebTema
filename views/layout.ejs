@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <title>Chestionare auto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stil.css">
+    <link rel="stylesheet" type="text/css" href="css/nav-dropdown.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/nav-dropdown.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header header-container">
+            <div class="header-img">
+                <img src="imagini/logo.jpg" style="float:left" alt="Logo site" />
+            </div>
+            <div class="header-writing">
+                <h1>
+                    Școala Rutieră
+                </h1>
+            </div>
+            <div class="header-buttons">
+                <button><a href="/autentificare">Autentificare</a></button>
+                <button><a href="/inregistrare">Autentificare</a></button>
+            </div>
+        </div>
+        <div class="nav nav-container">
+            <div class="index dropdown2">
+                <button class="dropbtn" onclick="functionNavDropDown2()">Informatii generale</button>
+                <div class="dropdown-content" id="myDropdown2">
+                    <a href="/">Acasă</a>
+                    <a href="/categorieA">Categoria A</a>
+                    <a href="/categorieB">Categoria B</a>
+                    <a href="/categorieC">Categoria C</a>
+
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn" onclick="functionNavDropDown()">Chestionar</button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="/categorieA">Categoria A</a>
+                    <a href="/categorieB">Categoria B</a>
+                    <a href="/categorieC">Categoria C</a>
+                </div>
+            </div>
+            <div class="alTreileaCamp">
+                <a href="/vizualizare-cos">Cos cumparaturi</a>
+            </div>
+        </div>
+        <div class="body">
+            <main id="continut">
+                <%- body %>
+            </main>
+        </div>
+        <br>
+        <br>
+        <div class="footer">
+            <footer>&#169;.2020. Programare web</footer>
+        </div>
+    </div>
+</body>
+
+</html>
